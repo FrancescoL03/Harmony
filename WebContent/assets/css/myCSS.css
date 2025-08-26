@@ -1,0 +1,105 @@
+/*----------- LINK e BOTTONI-----------*/
+a{
+	color: #eda15e;
+	text-decoration: none;
+	transition: 0.5s;
+}
+		
+a:hover{
+	color: #ed825e;
+	text-decoration: none;
+}
+
+.btn-link{
+	color:black;	
+}
+
+.btn-link:hover{
+	color: #eda15e; text-decoration: none;
+}
+
+#myButton{
+	background-color: #eda15e; 
+	border: none;
+}
+
+.myUserButton{
+	color: rgba(0,0,0,.5);
+}
+/*----------- FINE LINK e BOTTONI-----------*/
+
+
+#logo{
+	height: 40px;
+}
+
+/*----------- STYLE PRODOTTO, CATEGORIA e HOME -----------*/
+
+#product img{
+    margin: 7%;
+    float: none;
+}
+
+#description{
+    margin: auto;
+}
+
+.img-fluid{
+	width: 18rem;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: 0 auto;
+	float: none;
+}
+
+#carousel-photo{
+	height: 680px;
+}
+
+
+.card:hover {
+	box-shadow: 0px 0px 31px -3px rgba(117, 117, 117, 0.81);
+	transition: 0.2s;
+}
+
+/*----------- FINE STYLE PRODOTTO, CATEGORIA -----------*/
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*----------- MEDIA QUERY PER SMARTPHONE -----------*/
+
+@media screen and (max-width: 992px){
+	#description{
+	text-align: center;
+	}
+	
+	#product{
+	text-align: center;
+	}
+	
+	.img-fluid{
+	padding: 40px;
+	margin: 0;
+	}
+	
+	.myUserButton{
+	margin:0;
+	padding: 0;
+	padding-top:8px;
+	padding-bottom: 5px;
+	}
+	
+	#carousel-photo{
+	height: 300px;	
+	}
+	
+	#product img{
+    margin: auto;
+	}
+}
+
+/*----------- MEDIA QUERY PER SMARTPHONE -----------*/
